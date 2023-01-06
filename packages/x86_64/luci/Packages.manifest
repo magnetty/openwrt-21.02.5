@@ -1,0 +1,672 @@
+Package: csstidy
+Version: 2021-06-13-707feaec-1
+Depends: libc, libstdcpp6
+Source: feeds/luci/contrib/package/csstidy
+SourceName: csstidy
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1623606992
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 60740
+Filename: csstidy_2021-06-13-707feaec-1_x86_64.ipk
+Size: 61579
+SHA256sum: 58e9690006b787736f16625df2f98ef26b3f6ef78eea36d79a22773254a58c72
+Description:  CSSTidy parser and optimiser
+
+Package: liblucihttp-lua
+Version: 2021-06-11-3dc89af4-1
+Depends: libc, liblucihttp0, liblua5.1.5
+Source: feeds/luci/contrib/package/lucihttp
+SourceName: liblucihttp-lua
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1623520917
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 3586
+Filename: liblucihttp-lua_2021-06-11-3dc89af4-1_x86_64.ipk
+Size: 4373
+SHA256sum: 0c4be72968ac8ae844e80698c8290125ecd3f8f862d6519e7a9d191aaf66b9c8
+Description:  Lua binding for the LuCI HTTP utility library
+
+Package: liblucihttp0
+Version: 2021-06-11-3dc89af4-1
+Depends: libc
+Provides: liblucihttp
+Source: feeds/luci/contrib/package/lucihttp
+SourceName: liblucihttp
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1623520917
+ABIVersion: 0
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 7609
+Filename: liblucihttp0_2021-06-11-3dc89af4-1_x86_64.ipk
+Size: 8425
+SHA256sum: 17305807345d8d206e91d14f16c8bdbd65df9056063e165c29e03b301075be39
+Description:  LuCI HTTP utility library
+
+Package: luci-base
+Version: git-22.288.45155-afd0012
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
+Source: feeds/luci/modules/luci-base
+SourceName: luci-base
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Maintainer: OpenWrt LuCI community
+Architecture: x86_64
+Installed-Size: 130975
+Filename: luci-base_git-22.288.45155-afd0012_x86_64.ipk
+Size: 132044
+SHA256sum: d1d786ed9b94891f5c5f87b6d996c82e3b94727d814c4328155695534606d1c0
+Description:  LuCI core libraries
+
+Package: luci-compat
+Version: git-22.046.85744-f08a0f6
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-compat
+SourceName: luci-compat
+Section: luci
+SourceDateEpoch: 1644968944
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 45385
+Filename: luci-compat_git-22.046.85744-f08a0f6_all.ipk
+Size: 46200
+SHA256sum: 59b22885777b4fbce73ab485071b03a378b99dc2d9c2d4418fdf76874e8f282b
+Description:  LuCI compatibility libraries
+
+Package: luci-i18n-base-ar
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ar
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 37672
+Filename: luci-i18n-base-ar_git-22.277.72334-3923199_all.ipk
+Size: 38575
+SHA256sum: fab5ab783702b2b3e75b6214b409154d3ddb0a5952c8441edffe1a3d68e9cf49
+Description:  Translation for luci-base - العربية (Arabic)
+
+Package: luci-i18n-base-bg
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-bg
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 8161
+Filename: luci-i18n-base-bg_git-22.277.72334-3923199_all.ipk
+Size: 9024
+SHA256sum: 6bc5dcc80e5d5657892ec026bbecef382c378cb743ce1ced3f42bc7d47d4ae08
+Description:  Translation for luci-base - български (Bulgarian)
+
+Package: luci-i18n-base-bn
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-bn
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 1581
+Filename: luci-i18n-base-bn_git-22.277.72334-3923199_all.ipk
+Size: 2420
+SHA256sum: 10bd62e3aed06d1b3bca1e23fb929ed9915f219750aff8b2d9ad91c710909279
+Description:  Translation for luci-base - বাংলা (Bengali)
+
+Package: luci-i18n-base-ca
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ca
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 14109
+Filename: luci-i18n-base-ca_git-22.277.72334-3923199_all.ipk
+Size: 14911
+SHA256sum: 7b250da83e94ddcce58e979c6ced0afceb5db61c53f212b1cad3e586bbb8379b
+Description:  Translation for luci-base - Català (Catalan)
+
+Package: luci-i18n-base-cs
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-cs
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 31895
+Filename: luci-i18n-base-cs_git-22.277.72334-3923199_all.ipk
+Size: 32769
+SHA256sum: 5f09ab857b3035d3eafebd200e641e6771c1cb86dfab8ea53002176881bf44a6
+Description:  Translation for luci-base - Čeština (Czech)
+
+Package: luci-i18n-base-da
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-da
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 36344
+Filename: luci-i18n-base-da_git-22.277.72334-3923199_all.ipk
+Size: 37186
+SHA256sum: dcf7295325925d8c8c94549ee20fc2aaa1122ab38977b34371d5d3b01d9f16fb
+Description:  Translation for luci-base - Dansk (Danish)
+
+Package: luci-i18n-base-de
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-de
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 41313
+Filename: luci-i18n-base-de_git-22.277.72334-3923199_all.ipk
+Size: 42091
+SHA256sum: 50c8af357fa0813941df88389960565c4f2797f4f77a17262d2967bdf9f3e182
+Description:  Translation for luci-base - Deutsch (German)
+
+Package: luci-i18n-base-el
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-el
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 15340
+Filename: luci-i18n-base-el_git-22.277.72334-3923199_all.ipk
+Size: 16163
+SHA256sum: 12881847547905022f7fd4f01d4c7946d7a6cc7f09edc578133fe69c9984f9c0
+Description:  Translation for luci-base - Ελληνικά (Greek)
+
+Package: luci-i18n-base-en
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-en
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 527
+Filename: luci-i18n-base-en_git-22.277.72334-3923199_all.ipk
+Size: 1322
+SHA256sum: eb126c907593aaf732991f2ba0ad877a5a5ffcd1a494cc821954e824042d62da
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-es
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-es
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 40433
+Filename: luci-i18n-base-es_git-22.277.72334-3923199_all.ipk
+Size: 41292
+SHA256sum: f5c6db8438984710fc1db92a32400a590ff2706356a350c20c180c19f7e40c6f
+Description:  Translation for luci-base - Español (Spanish)
+
+Package: luci-i18n-base-fi
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-fi
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 36205
+Filename: luci-i18n-base-fi_git-22.277.72334-3923199_all.ipk
+Size: 37081
+SHA256sum: 5501788105ffd808449566f3e9dee8a5e4d5f7e207f37ed7f35a951fc892088a
+Description:  Translation for luci-base - Suomi (Finnish)
+
+Package: luci-i18n-base-fr
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-fr
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 42156
+Filename: luci-i18n-base-fr_git-22.277.72334-3923199_all.ipk
+Size: 42942
+SHA256sum: e840395e30d741cc5bfa0a4c54ce82b089f5b3a35fd2c84eff5abc7a7e34c6f8
+Description:  Translation for luci-base - Français (French)
+
+Package: luci-i18n-base-he
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-he
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 4808
+Filename: luci-i18n-base-he_git-22.277.72334-3923199_all.ipk
+Size: 5618
+SHA256sum: 6f7ff3ff7766001049c5eb66e5b6f61e96a44c545354ae77147ce9c93f82408f
+Description:  Translation for luci-base - עִבְרִית (Hebrew)
+
+Package: luci-i18n-base-hi
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-hi
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 2157
+Filename: luci-i18n-base-hi_git-22.277.72334-3923199_all.ipk
+Size: 2963
+SHA256sum: 7cbfbadaf0b224a1daabd71e76488b1ac394096e22c670446cbef28127c81208
+Description:  Translation for luci-base - हिंदी (Hindi)
+
+Package: luci-i18n-base-hu
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-hu
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 31260
+Filename: luci-i18n-base-hu_git-22.277.72334-3923199_all.ipk
+Size: 32037
+SHA256sum: 29c143d6855fe4c6953fee5cb7ee998093740a94bd7cd6b45c094be1c384ea1e
+Description:  Translation for luci-base - Magyar (Hungarian)
+
+Package: luci-i18n-base-it
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-it
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 22130
+Filename: luci-i18n-base-it_git-22.277.72334-3923199_all.ipk
+Size: 22965
+SHA256sum: 52ccb11618e50da711ccdde30a3f2bc7e76bb9841d85129fe74a2c575b6f7ed3
+Description:  Translation for luci-base - Italiano (Italian)
+
+Package: luci-i18n-base-ja
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ja
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 38471
+Filename: luci-i18n-base-ja_git-22.277.72334-3923199_all.ipk
+Size: 39382
+SHA256sum: b5df3d63a88eff07e5845c13a5584f4f086fee84748675244806e0926809a974
+Description:  Translation for luci-base - 日本語 (Japanese)
+
+Package: luci-i18n-base-ko
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ko
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 15909
+Filename: luci-i18n-base-ko_git-22.277.72334-3923199_all.ipk
+Size: 16708
+SHA256sum: f75a478182d0187a31b25a74abc7fa7e09f73ca8212b216055c18acc854c0dc2
+Description:  Translation for luci-base - 한국어 (Korean)
+
+Package: luci-i18n-base-mr
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-mr
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 1458
+Filename: luci-i18n-base-mr_git-22.277.72334-3923199_all.ipk
+Size: 2288
+SHA256sum: e976aa1b670c68131698f0d32e135cce825bdf4059bfd0f1c05b332572c83eb2
+Description:  Translation for luci-base - Marāṭhī (Marathi)
+
+Package: luci-i18n-base-ms
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ms
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 4980
+Filename: luci-i18n-base-ms_git-22.277.72334-3923199_all.ipk
+Size: 5764
+SHA256sum: 6b7949c4445763d57e94986d8e5401ac1c87d752e250dcc77dfb8ac9b4be3a41
+Description:  Translation for luci-base - Bahasa Melayu (Malay)
+
+Package: luci-i18n-base-nl
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-nl
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 4172
+Filename: luci-i18n-base-nl_git-22.277.72334-3923199_all.ipk
+Size: 4966
+SHA256sum: 164984a3803aefb6ebc21a64ff4a215208c1b4fd6b41bb2e4e5d95c590572b1f
+Description:  Translation for luci-base - Nederlands (Dutch)
+
+Package: luci-i18n-base-no
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-no
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 16014
+Filename: luci-i18n-base-no_git-22.277.72334-3923199_all.ipk
+Size: 16769
+SHA256sum: 1068f68af34ea4efb2ddf5356571f74de06bc9b416893e52a0a3c70634ff7ebd
+Description:  Translation for luci-base - Norsk (Norwegian)
+
+Package: luci-i18n-base-pl
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-pl
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 41312
+Filename: luci-i18n-base-pl_git-22.277.72334-3923199_all.ipk
+Size: 42128
+SHA256sum: 017beaf7ac64332ac48a1eeceaed5434c8a01d7d95959d0fd0bb338f033eceac
+Description:  Translation for luci-base - Polski (Polish)
+
+Package: luci-i18n-base-pt-br
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-pt-br
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 42394
+Filename: luci-i18n-base-pt-br_git-22.277.72334-3923199_all.ipk
+Size: 43190
+SHA256sum: bc6b9baf6d528f8d349c42b584e6a4ae8adf6522ebbf835017d11ae5f932042a
+Description:  Translation for luci-base - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-base-pt
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-pt
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 41460
+Filename: luci-i18n-base-pt_git-22.277.72334-3923199_all.ipk
+Size: 42303
+SHA256sum: b3b758783d6da772c6aa700104d1e679b2d9e14c1bcf593f1df55c1cd6976003
+Description:  Translation for luci-base - Português (Portuguese)
+
+Package: luci-i18n-base-ro
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ro
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 40459
+Filename: luci-i18n-base-ro_git-22.277.72334-3923199_all.ipk
+Size: 41304
+SHA256sum: 907b0da86b1f2157b4672581c2b047144e17787458fc6a391ff30ce4d069a5e1
+Description:  Translation for luci-base - Română (Romanian)
+
+Package: luci-i18n-base-ru
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 48022
+Filename: luci-i18n-base-ru_git-22.277.72334-3923199_all.ipk
+Size: 48605
+SHA256sum: 3cc810748c1cd1de82db8097d718659a1f64fa4e803a533c0d1ca127017e4117
+Description:  Translation for luci-base - Русский (Russian)
+
+Package: luci-i18n-base-sk
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-sk
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 15544
+Filename: luci-i18n-base-sk_git-22.277.72334-3923199_all.ipk
+Size: 16365
+SHA256sum: 1c7c6c0ab7ae170a3ed8e93c69696d60533cbd229bdebc7186b70b7bd9774496
+Description:  Translation for luci-base - Slovenčina (Slovak)
+
+Package: luci-i18n-base-sv
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-sv
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 13344
+Filename: luci-i18n-base-sv_git-22.277.72334-3923199_all.ipk
+Size: 14117
+SHA256sum: 9c2e20e44bd3c22e04fc20ec272cb29c9fcc396469927fbd706d97b7a723b7f1
+Description:  Translation for luci-base - Svenska (Swedish)
+
+Package: luci-i18n-base-tr
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-tr
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 40320
+Filename: luci-i18n-base-tr_git-22.277.72334-3923199_all.ipk
+Size: 41168
+SHA256sum: 066f5c83a32c4cb3aa1d7acfb7a9680b644c01ffa7af29315f31a5705426b198
+Description:  Translation for luci-base - Türkçe (Turkish)
+
+Package: luci-i18n-base-uk
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-uk
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 48436
+Filename: luci-i18n-base-uk_git-22.277.72334-3923199_all.ipk
+Size: 49036
+SHA256sum: d5fec16b17e3870350919fa7ee3b2982d891e510108576f435379d5c3818b5dd
+Description:  Translation for luci-base - Українська (Ukrainian)
+
+Package: luci-i18n-base-vi
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-vi
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 25505
+Filename: luci-i18n-base-vi_git-22.277.72334-3923199_all.ipk
+Size: 26292
+SHA256sum: 8dbe57cd2fff79c5b68e3f0a1ccb85a34eec9059689bd19fb793fa5ed76f66e1
+Description:  Translation for luci-base - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-base-zh-cn
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-zh-cn
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 37919
+Filename: luci-i18n-base-zh-cn_git-22.277.72334-3923199_all.ipk
+Size: 38823
+SHA256sum: bd672d697b196835a84b857d167c72dc59a6bc295990c476566a63641079c93a
+Description:  Translation for luci-base - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-base-zh-tw
+Version: git-22.277.72334-3923199
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-zh-tw
+License: MIT
+Section: luci
+SourceDateEpoch: 1665837155
+Architecture: all
+Installed-Size: 40200
+Filename: luci-i18n-base-zh-tw_git-22.277.72334-3923199_all.ipk
+Size: 41094
+SHA256sum: dd25172e5f07e17d24955b44e1dd77fbd242c884e728dd01df0824d5aa3add1a
+Description:  Translation for luci-base - 繁體中文 (Chinese Traditional)
+
+Package: luci-lib-base
+Version: git-20.232.39649-1f6dc29
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Source: feeds/luci/libs/luci-lib-base
+SourceName: luci-lib-base
+Section: luci
+SourceDateEpoch: 1597834849
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 12486
+Filename: luci-lib-base_git-20.232.39649-1f6dc29_all.ipk
+Size: 13345
+SHA256sum: 7b9d21361cb8f297bfbf3bda4813d999ca26d1945366e06cfd43abd8c6c70b8d
+Description:  basic libraries for luci
+
+Package: luci-lib-ip
+Version: git-20.250.76529-62505bd
+Depends: libc, liblua5.1.5, libnl-tiny1
+Source: feeds/luci/libs/luci-lib-ip
+SourceName: luci-lib-ip
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1599426929
+Maintainer: OpenWrt LuCI community
+Architecture: x86_64
+Installed-Size: 12188
+Filename: luci-lib-ip_git-20.250.76529-62505bd_x86_64.ipk
+Size: 13064
+SHA256sum: 357ecd4865bf8b191c2f6b9e50616d03596c0cb463f4dea11cae337faccf2420
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-22.097.61937-bc85ba5
+Depends: libc, liblua5.1.5, libjson-c5
+Source: feeds/luci/libs/luci-lib-jsonc
+SourceName: luci-lib-jsonc
+Section: luci
+SourceDateEpoch: 1649351537
+Maintainer: OpenWrt LuCI community
+Architecture: x86_64
+Installed-Size: 4334
+Filename: luci-lib-jsonc_git-22.097.61937-bc85ba5_x86_64.ipk
+Size: 5127
+SHA256sum: 65ff0195133f0d6aa9ef7f80224ae966437d2604b2c58404319e64d7a92608b2
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-20.234.06894-c4a4e43
+Depends: libc, liblua5.1.5
+Source: feeds/luci/libs/luci-lib-nixio
+SourceName: luci-lib-nixio
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1597974894
+Maintainer: OpenWrt LuCI community
+Architecture: x86_64
+Installed-Size: 32932
+Filename: luci-lib-nixio_git-20.234.06894-c4a4e43_x86_64.ipk
+Size: 33794
+SHA256sum: 1e635cdf5112320e6a361e67669b0d73a3ca67231bb63b9cfe97b5f15d829b1b
+Description:  NIXIO POSIX library
+
+Package: rpcd-mod-luci
+Version: 20210614
+Depends: libc, rpcd, libubox20210516, libubus20210630, libnl-tiny1
+Source: feeds/luci/libs/rpcd-mod-luci
+SourceName: rpcd-mod-luci
+License: Apache-2.0
+Section: libs
+SourceDateEpoch: 1635270064
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 13522
+Filename: rpcd-mod-luci_20210614_x86_64.ipk
+Size: 14332
+SHA256sum: 5eac27c2b3f8bb322f94aee389473f060a21b50a41b4d636ba488dc8e2cec793
+Description:  Provides LuCI backend ubus RPC operations.
+

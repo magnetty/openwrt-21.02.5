@@ -1,0 +1,4898 @@
+Package: acl
+Version: 2.2.53-1
+Depends: libc, libacl
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 19313
+Filename: acl_2.2.53-1_x86_64.ipk
+Size: 20072
+SHA256sum: e3b00dd29024c6c1633680dc0bd290a85cbfec144725fa33fb6440edaa9a0d30
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.4.48-2
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 11796
+Filename: attr_2.4.48-2_x86_64.ipk
+Size: 12528
+SHA256sum: 5a6bcf7727925da66ccc21cb64694b003983b62ad205cef8bf46d3c32782736f
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: bluez-daemon
+Version: 5.64-1
+Depends: libc, bluez-libs, bluez-utils, bluez-utils-extra, glib2, libncurses6, libreadline8, dbus, libical
+Source: feeds/packages/utils/bluez
+SourceName: bluez-daemon
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: x86_64
+Installed-Size: 680602
+Filename: bluez-daemon_5.64-1_x86_64.ipk
+Size: 681059
+SHA256sum: b87ec0b507c20602e3daaf57e4adc4d6421886f765877d8b061d3a97f5086c41
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.64-1
+Depends: libc, libpthread, kmod-bluetooth
+Source: feeds/packages/utils/bluez
+SourceName: bluez-libs
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: x86_64
+Installed-Size: 79802
+Filename: bluez-libs_5.64-1_x86_64.ipk
+Size: 80450
+SHA256sum: eb723fba0de06c640b41b2372dee49ab291156c4e9c629e8b9a302c44842396e
+Description:  Bluetooth library
+
+Package: bluez-utils-extra
+Version: 5.64-1
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses6, libreadline8, dbus
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils-extra
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: x86_64
+Installed-Size: 150166
+Filename: bluez-utils-extra_5.64-1_x86_64.ipk
+Size: 150957
+SHA256sum: 7a93a3bff55f8b2b5884bcef4c6c0fab15246aa4ed78b36e3a6a7c2f0b36e37c
+Description:  Bluetooth additional utilities
+
+Package: bluez-utils
+Version: 5.64-1
+Depends: libc, bluez-libs
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1653074105
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: x86_64
+Installed-Size: 609533
+Filename: bluez-utils_5.64-1_x86_64.ipk
+Size: 609979
+SHA256sum: 4b1b34f7289dd0332bd08c1b5db331bfc05267a481ee162222c4234461acb720
+Description:  Bluetooth utilities
+
+Package: certtool
+Version: 3.7.1-2
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+SourceName: certtool
+License: LGPL-2.1-or-later
+Section: utils
+SourceDateEpoch: 1638914318
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: x86_64
+Installed-Size: 131268
+Filename: certtool_3.7.1-2_x86_64.ipk
+Size: 132341
+SHA256sum: 24c74d37ad953cbe1d1a98c56eaa25100b57f5a89b9f208e20f511157490fb51
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20210516, libubus20210630
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168492
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: x86_64
+Installed-Size: 8834
+Filename: cgi-io_2022-08-10-901b0f04-21_x86_64.ipk
+Size: 9614
+SHA256sum: 6de426cd29855881e89c634a5d8e0a7454ff500d9d22b8ee3c73a7f5afd47733
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-b2sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-b2sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 29098
+Filename: coreutils-b2sum_8.32-6_x86_64.ipk
+Size: 29890
+SHA256sum: 273de2b668775c419deff865bcf94979448faeacc45154bf4a5407da5e54d4d7
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base32
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23310
+Filename: coreutils-base32_8.32-6_x86_64.ipk
+Size: 24053
+SHA256sum: a436f3416219dd14dd510a413587f34f98ae7056ea893d114443fa02e828b796
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23282
+Filename: coreutils-base64_8.32-6_x86_64.ipk
+Size: 24054
+SHA256sum: 4b5206eef14951ce8300dd30e928e0f477b68f4750a2ddbf5853cc004a7f3785
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basename
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20573
+Filename: coreutils-basename_8.32-6_x86_64.ipk
+Size: 21340
+SHA256sum: fee2ac59e4b505e95de389fa18a3056ce0d5980423fb00128d2410fbb500b926
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basenc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26291
+Filename: coreutils-basenc_8.32-6_x86_64.ipk
+Size: 27048
+SHA256sum: 167eb433eaea9ce56128d0b8966ae5109b4f83a7834c185c908e792ae3a2246d
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22141
+Filename: coreutils-cat_8.32-6_x86_64.ipk
+Size: 22907
+SHA256sum: f563defcd421f71347f5787e75aa87456cd77516fcc6254a060e09d94107745d
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 33143
+Filename: coreutils-chcon_8.32-6_x86_64.ipk
+Size: 33978
+SHA256sum: aa65c96166e5ec11dd0d30a5108e47e6a8e78c8e2cb61e862ce232f236301edd
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chgrp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34845
+Filename: coreutils-chgrp_8.32-6_x86_64.ipk
+Size: 35676
+SHA256sum: afd89fd9c14ec6e034ffa7c29564275db7f5bfcb34ec6919e4b4f23236d719e5
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chmod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 32005
+Filename: coreutils-chmod_8.32-6_x86_64.ipk
+Size: 32852
+SHA256sum: 06ba7fcdfaaa03b70e22ef043bf399cc8367956e08f1e44791bf3778d0e147d4
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chown
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 35753
+Filename: coreutils-chown_8.32-6_x86_64.ipk
+Size: 36607
+SHA256sum: 0c5f3a4480692e6f70f192f1a5d692e15369273d6ef6bc33004b41612061f053
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chroot
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 28692
+Filename: coreutils-chroot_8.32-6_x86_64.ipk
+Size: 29487
+SHA256sum: 4e4febf0318d11bd395093f518cb17f6cb2d81a94915070cf4eb0ad046aa0be8
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cksum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21800
+Filename: coreutils-cksum_8.32-6_x86_64.ipk
+Size: 22562
+SHA256sum: 78232cb5f9c6b5a5ac4e6eb5390426a24c00226ced9c2ee991fa74a727ef16ba
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-comm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23379
+Filename: coreutils-comm_8.32-6_x86_64.ipk
+Size: 24151
+SHA256sum: be6f9756750743015ab311df93d469cf06468de4d8cab6860608624d63154df5
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 52609
+Filename: coreutils-cp_8.32-6_x86_64.ipk
+Size: 53453
+SHA256sum: 6db6768bf963954501fac03d9c209797d4a94ba15410fc443b017a9fc53bf618
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-csplit
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 55826
+Filename: coreutils-csplit_8.32-6_x86_64.ipk
+Size: 56693
+SHA256sum: 5ae86fa6bf1b5769773ae2983feee490b734cfcd15ffeb98ce84a710590673bc
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cut
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24262
+Filename: coreutils-cut_8.32-6_x86_64.ipk
+Size: 25023
+SHA256sum: 8a9bd30ec3a68f547eed0777ec4815c44b467c105878ebebbba5f2f12e47abbc
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-date
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 42963
+Filename: coreutils-date_8.32-6_x86_64.ipk
+Size: 43795
+SHA256sum: b8fac32f64ae255a41d9806445a0fc18a1131827c170f14a9d7583599ea627d7
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34268
+Filename: coreutils-dd_8.32-6_x86_64.ipk
+Size: 35120
+SHA256sum: 1da1041cd46e7b616b338f5ec8663df61e5ea6d2bf4cee8e8832117360c60c2c
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-df
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 40925
+Filename: coreutils-df_8.32-6_x86_64.ipk
+Size: 41739
+SHA256sum: 380d023316081406baf6f2716f5a4278102007dcc61fbdac9f0c2643f2a7d105
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 64932
+Filename: coreutils-dir_8.32-6_x86_64.ipk
+Size: 65779
+SHA256sum: 5c3eeee7d91f0a51db5b2c796b1e011426667b7e9caf556c3fbc88a026569702
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dircolors
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 30336
+Filename: coreutils-dircolors_8.32-6_x86_64.ipk
+Size: 31102
+SHA256sum: b056f2db065243695e31f1204fefccd43068868aac06bb3bef47ac6c7c83b544
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dirname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20208
+Filename: coreutils-dirname_8.32-6_x86_64.ipk
+Size: 21028
+SHA256sum: 7052803a0223d716ce99f24697af735a1f1c4a3b8cf907269f38525dec546620
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-du
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 83162
+Filename: coreutils-du_8.32-6_x86_64.ipk
+Size: 84050
+SHA256sum: 18d8c8b03cc4c6a8697351cf306759415602a9cd9e505ccbf551693c9c4db675
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-echo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 18601
+Filename: coreutils-echo_8.32-6_x86_64.ipk
+Size: 19405
+SHA256sum: c40457ebf713a73bfd7d1ae75da0eb945ccc767cf3a74417adbf672cab26db60
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-env
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25153
+Filename: coreutils-env_8.32-6_x86_64.ipk
+Size: 25936
+SHA256sum: 1fe5379da80dbafcfee0964c64892afa40bd0dd2279432baf55843f74887faa9
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21991
+Filename: coreutils-expand_8.32-6_x86_64.ipk
+Size: 22753
+SHA256sum: 82620d0bc6ffd836b6c58640d71f52900cde356cfbe2cac05127121d15e640db
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 8.32-6
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 54064
+Filename: coreutils-expr_8.32-6_x86_64.ipk
+Size: 54959
+SHA256sum: bdbe40dd9e0b80e1f3fc4d09aff2a411db70deb38d3065a39648d8f6bf13f4c8
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 8.32-6
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-factor
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 41114
+Filename: coreutils-factor_8.32-6_x86_64.ipk
+Size: 41968
+SHA256sum: 3ce6072679fd31f8211fb1b561eba4bd6aede284040a89d9292c9a0264fca9c8
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-false
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 17544
+Filename: coreutils-false_8.32-6_x86_64.ipk
+Size: 18344
+SHA256sum: e465fd8434819095f85680c6118a426481114933495c8f43a7353420ed0e7980
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23966
+Filename: coreutils-fmt_8.32-6_x86_64.ipk
+Size: 24696
+SHA256sum: b630dafd0c3f33b21d2569259b60a4a58ab198128a0c902c74bc3122167bd5b2
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fold
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21662
+Filename: coreutils-fold_8.32-6_x86_64.ipk
+Size: 22423
+SHA256sum: 4a07e965d720fd34a9c93d459ab4aed0866857dbf2504510aaa50d6cc0ca63ca
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-groups
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21002
+Filename: coreutils-groups_8.32-6_x86_64.ipk
+Size: 21780
+SHA256sum: f5920698f6df1bf74b380ec1c10d28a5a032d7ef288c7ce4972f9de9371c18a2
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-head
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24709
+Filename: coreutils-head_8.32-6_x86_64.ipk
+Size: 25481
+SHA256sum: 2a8068e4f2ce220b22edf4a35e50592b5c51f368e69b0d6ab6d792a1eced1b4f
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-hostid
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 19884
+Filename: coreutils-hostid_8.32-6_x86_64.ipk
+Size: 20700
+SHA256sum: 9f37a9f75b90a35607b4e8bfaf6c2eb52b570ce2da40cdf7589d207d49b9d9ec
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-id
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23421
+Filename: coreutils-id_8.32-6_x86_64.ipk
+Size: 24186
+SHA256sum: 6b6d17698be219ae5c497b4bf7817ceb5de1f489d2960fb08bb0654b1f29352a
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-install
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 54875
+Filename: coreutils-install_8.32-6_x86_64.ipk
+Size: 55744
+SHA256sum: 0d951beaf264e5a4f9548b9ee60fa394a2b8521420ac5aab2b6027fbf6ce6123
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-join
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26717
+Filename: coreutils-join_8.32-6_x86_64.ipk
+Size: 27519
+SHA256sum: 0496f234c46f5aa2db740b8f53d913f6547972e722e8df304be403ad9a75d4c5
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-kill
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21987
+Filename: coreutils-kill_8.32-6_x86_64.ipk
+Size: 22745
+SHA256sum: 21b6ed11ad17f28c2c86a653b817231c04375a7eabe5d4fcfe43a6ee631f360f
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-link
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20095
+Filename: coreutils-link_8.32-6_x86_64.ipk
+Size: 20856
+SHA256sum: 54296675ca08cd780ebe4db6b196660ba686dd730d8f6b854bb38fa3157af9ee
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ln
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 36298
+Filename: coreutils-ln_8.32-6_x86_64.ipk
+Size: 37149
+SHA256sum: 044780491acf4961eaebe2d881f22e4e1ad4eb396b766f3697a93ce67d86eec3
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-logname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 19870
+Filename: coreutils-logname_8.32-6_x86_64.ipk
+Size: 20692
+SHA256sum: 9999ccaf4601f2716eb6fd7fe9ace80b618ed855f3a1af77492d13de99ab0951
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ls
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 64945
+Filename: coreutils-ls_8.32-6_x86_64.ipk
+Size: 65827
+SHA256sum: 87c259831ebec88b1d270fa13a85a8b4b570fa839a7ab9ecdb7993da326e933f
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-md5sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26077
+Filename: coreutils-md5sum_8.32-6_x86_64.ipk
+Size: 26859
+SHA256sum: 91babe9cfeb30b6eef0dfe1f47beacc0aeba3f22a47bd026f87645c303c8e319
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23975
+Filename: coreutils-mkdir_8.32-6_x86_64.ipk
+Size: 24747
+SHA256sum: a9b293466335de26fb0af031eba180b79833496196a681c8218d1162f3e857e8
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkfifo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21154
+Filename: coreutils-mkfifo_8.32-6_x86_64.ipk
+Size: 21928
+SHA256sum: 86242443f726bb2923ccf7c476fb07d5115dd8a7a87c9bdc5101fa3dc2b11033
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mknod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22581
+Filename: coreutils-mknod_8.32-6_x86_64.ipk
+Size: 23359
+SHA256sum: 0a7d2c3ad76d3c9d5b997f68533dd849483cacae1c94bed4a049437a1f880933
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mktemp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24892
+Filename: coreutils-mktemp_8.32-6_x86_64.ipk
+Size: 25680
+SHA256sum: f1f2f04ae0a9c8dcff73f828da1168e0a02c3abe6820ca718c4173cc93d7cee4
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 56356
+Filename: coreutils-mv_8.32-6_x86_64.ipk
+Size: 57237
+SHA256sum: c9ce9967a2f7e4d5fec2111de410747f95aaed74c2138bc02bc48f394ec5e127
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nice
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21146
+Filename: coreutils-nice_8.32-6_x86_64.ipk
+Size: 21904
+SHA256sum: e5fb19555526ddea566af5c41e5c1e14849fd30aea9d5d9f5f29883c6759865e
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 52477
+Filename: coreutils-nl_8.32-6_x86_64.ipk
+Size: 53353
+SHA256sum: 8e654bec5f8ecbbcfa7df1315473bcd09c75e6f0f94f57741ed777f3b7af1fb1
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nohup
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21655
+Filename: coreutils-nohup_8.32-6_x86_64.ipk
+Size: 22422
+SHA256sum: fbe1de36999c916285bc61484a03bc92c26bf515e020c919000be1a25e03de1b
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nproc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21069
+Filename: coreutils-nproc_8.32-6_x86_64.ipk
+Size: 21827
+SHA256sum: 4002fa76f5fa4ba7c12de806948481ccbb700d42ede8f851da969b8354883f24
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-numfmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31045
+Filename: coreutils-numfmt_8.32-6_x86_64.ipk
+Size: 31819
+SHA256sum: b593bb47c5595da267e7f3b2f4439de6752a835b49f0e555203e0ef5543529e0
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-od
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 32148
+Filename: coreutils-od_8.32-6_x86_64.ipk
+Size: 32952
+SHA256sum: f50fbab25b4d5f45b673a34737ffd7d5c3acdf7656b66ec4988bcd867e8a8f0f
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-paste
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21474
+Filename: coreutils-paste_8.32-6_x86_64.ipk
+Size: 22230
+SHA256sum: 25c8e475f90d5110a5140aafd54bceaa27b072327b2b6f296676d92d4417f944
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pathchk
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20832
+Filename: coreutils-pathchk_8.32-6_x86_64.ipk
+Size: 21578
+SHA256sum: d07d00cd4596a01669b1cdd6e4e5965ad27b787bc123c89297a6bfcd502f647e
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pinky
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22563
+Filename: coreutils-pinky_8.32-6_x86_64.ipk
+Size: 23302
+SHA256sum: 65106c58cb3aef93c36377c381868404d3517a7778cb0a8d781b1047357a38cb
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 36139
+Filename: coreutils-pr_8.32-6_x86_64.ipk
+Size: 36960
+SHA256sum: cb5db3817083f2464b1ff437d788288f641ed3932ec8e9a0c30637affd636ccc
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printenv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20095
+Filename: coreutils-printenv_8.32-6_x86_64.ipk
+Size: 20919
+SHA256sum: 88f515503cab4000f37d37af1e6ff5e360f2b3f30a66bd05c729f5a5bfaecd51
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23164
+Filename: coreutils-printf_8.32-6_x86_64.ipk
+Size: 23931
+SHA256sum: 6e02823662382d1ee7aa9c7eaa977482c37a85ac133ff70ea1d0a6fee16f939a
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ptx
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 58472
+Filename: coreutils-ptx_8.32-6_x86_64.ipk
+Size: 59377
+SHA256sum: ca8cd3767abda69f0ac6599a459a5c58d8e7b7f6ac4cd3c74f02f3c3c4d5c5b8
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pwd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23425
+Filename: coreutils-pwd_8.32-6_x86_64.ipk
+Size: 24191
+SHA256sum: e11353662f73a46df9394ccbb8b3b5879330bd8cc5ae52fe244e320bcec2f2d7
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-readlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26121
+Filename: coreutils-readlink_8.32-6_x86_64.ipk
+Size: 26912
+SHA256sum: f3b96c60e92042e75f71ed41a5ee5f7aaa8a4b47add9b86b892394725b2d7ee4
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-realpath
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 27048
+Filename: coreutils-realpath_8.32-6_x86_64.ipk
+Size: 27824
+SHA256sum: 57baea056822eeae21d361a26489fd43364d4982ae12cb9dcb95d3df2642c7ff
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 33647
+Filename: coreutils-rm_8.32-6_x86_64.ipk
+Size: 34477
+SHA256sum: b52aee14cc6563de8b970fb227947a19d6a5044ee426e9c21f557755d868293e
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rmdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20782
+Filename: coreutils-rmdir_8.32-6_x86_64.ipk
+Size: 21546
+SHA256sum: d034d5ea2e85ba30237a692e2f5e9d292428e11fc8d098d4499af4f09875d55b
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-runcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20216
+Filename: coreutils-runcon_8.32-6_x86_64.ipk
+Size: 21041
+SHA256sum: 494401e4163b29871023247d72ad46fb0da0455da065373eeb964da3863cdcf6
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-seq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25192
+Filename: coreutils-seq_8.32-6_x86_64.ipk
+Size: 25980
+SHA256sum: ee6a516e16abbdbd9527d8f0604e82d57103a2de760c82967c13f7fcd371ce17
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha1sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 27849
+Filename: coreutils-sha1sum_8.32-6_x86_64.ipk
+Size: 28636
+SHA256sum: aa2c199c141bac84e81801ed00d59a2b7a5048d0cf8f8e33f09dc9760892180a
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha224sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31645
+Filename: coreutils-sha224sum_8.32-6_x86_64.ipk
+Size: 32430
+SHA256sum: 165883817984ed6f16afe7fbeb43ac74369e9433acbf58fdb516027617b6297a
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha256sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31649
+Filename: coreutils-sha256sum_8.32-6_x86_64.ipk
+Size: 32464
+SHA256sum: fb5e6c1bf81e15810fb2ea8ce0caf1e799f71f12a7eb4ca32d2fade8cdd16b79
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha384sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34041
+Filename: coreutils-sha384sum_8.32-6_x86_64.ipk
+Size: 34847
+SHA256sum: 9329e1f0caeda4311437a93844ee9d788aa6310a6aa2c03bfa0e794eb66c7342
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha512sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34041
+Filename: coreutils-sha512sum_8.32-6_x86_64.ipk
+Size: 34879
+SHA256sum: 3c8a280d85a8b442f312191a5b2fd5da7ce2876053576cf3e66d321a0247f84b
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shred
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31425
+Filename: coreutils-shred_8.32-6_x86_64.ipk
+Size: 32214
+SHA256sum: 10b2f19e5b5d6fc9add8457d55f9589c3ac0bab92979c023db8002e07aec4b95
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 29664
+Filename: coreutils-shuf_8.32-6_x86_64.ipk
+Size: 30465
+SHA256sum: d18309e19f20a7cb5b396aaacd5fd1953f4f0ed08bbfc341ae087d2684a74308
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sleep
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22399
+Filename: coreutils-sleep_8.32-6_x86_64.ipk
+Size: 23168
+SHA256sum: e192b11efa545fbbbc7d5ef6fc29201e086c8926a527a41a0a12c800ddcb96b7
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 8.32-6
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 53633
+Filename: coreutils-sort_8.32-6_x86_64.ipk
+Size: 54514
+SHA256sum: 81884a8ab87d7142b3e9542643e52e3bd2d31017f775f3b4a3107c051996921c
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-split
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 29773
+Filename: coreutils-split_8.32-6_x86_64.ipk
+Size: 30579
+SHA256sum: 47b07524693a6524198ea945a527420bb01280e27a90f3972ffdface40fce045
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 44018
+Filename: coreutils-stat_8.32-6_x86_64.ipk
+Size: 44808
+SHA256sum: 433aaad4cdccf493f9bcaaf8ee78559ea961f4af14e97ab0d61b0a4bcf3faebd
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stdbuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24413
+Filename: coreutils-stdbuf_8.32-6_x86_64.ipk
+Size: 25138
+SHA256sum: 2e39ec708611d02971f1165d19354ce3ae9bd7ebca5e6b61c7b3a40e33430854
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 30389
+Filename: coreutils-stty_8.32-6_x86_64.ipk
+Size: 31158
+SHA256sum: 7d58d5d315659355a7426df6fb3d56e13176d6263e13eb4c0d7d5c55a11d8a8c
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23828
+Filename: coreutils-sum_8.32-6_x86_64.ipk
+Size: 24601
+SHA256sum: 25fc4b7a0329da7e00ae6bbcaa4827a255a68d3891d4d0e4f4574ec6ed7297ed
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sync
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20673
+Filename: coreutils-sync_8.32-6_x86_64.ipk
+Size: 21441
+SHA256sum: 7c1a3ebe6c863eca79bcb8e56744d4cf51db85668d222a2f63a619bb5b24f246
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tac
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 52141
+Filename: coreutils-tac_8.32-6_x86_64.ipk
+Size: 53033
+SHA256sum: 310846c0768832589b113dc3d37b1b7a8bbe0e310bd0b05fa930fc0a21057a8e
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tail
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 37134
+Filename: coreutils-tail_8.32-6_x86_64.ipk
+Size: 38011
+SHA256sum: beb43f0e466eac12e7d9fba8f13eb2d2e85ac56ed61eaf2b6baf810d0b3fdd79
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tee
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22131
+Filename: coreutils-tee_8.32-6_x86_64.ipk
+Size: 22903
+SHA256sum: 534b3662480a74989901fac55aa271b35ff1b7859a9eadfcaccda015fde4e26c
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-test
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21880
+Filename: coreutils-test_8.32-6_x86_64.ipk
+Size: 22649
+SHA256sum: 2bafde32cff839b1a9e50bea5bfac2ada84ba7f9377882334fc4ef8be10b1783
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 8.32-6
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-timeout
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25031
+Filename: coreutils-timeout_8.32-6_x86_64.ipk
+Size: 25826
+SHA256sum: b9f8fd62cfd12f90a43650d13ca5579cb4ffc02c6770e93691b3222360963124
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-touch
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 40165
+Filename: coreutils-touch_8.32-6_x86_64.ipk
+Size: 41021
+SHA256sum: 6d295cf28a82b0ed54be799e16b2f12ddd02585a01cbbf6e5d93ee34ec8671dc
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26126
+Filename: coreutils-tr_8.32-6_x86_64.ipk
+Size: 26911
+SHA256sum: ff4ab9df543b7fa3815f72fef5ada5ad4913f41037a00f942051e09a73fc54b1
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-true
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 17539
+Filename: coreutils-true_8.32-6_x86_64.ipk
+Size: 18338
+SHA256sum: 14d3494da8abb0396103bb1842b31111759c7e044f4e4e070abd67f18aab0aaa
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-truncate
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22435
+Filename: coreutils-truncate_8.32-6_x86_64.ipk
+Size: 23208
+SHA256sum: ee39ab1c8c1d35d5165df39c7977538f171609cfdfc937dceb3d9242920fce1c
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tsort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22247
+Filename: coreutils-tsort_8.32-6_x86_64.ipk
+Size: 22989
+SHA256sum: d0cf8f5e7885d41f456efa9372e257684ca336d33389b0471c45f04c1fac3586
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 19779
+Filename: coreutils-tty_8.32-6_x86_64.ipk
+Size: 20606
+SHA256sum: aa3a59339e46cf69d256bbe731c1622e4a0bda350e68e8d92b4e301c824ef27e
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20594
+Filename: coreutils-uname_8.32-6_x86_64.ipk
+Size: 21348
+SHA256sum: 4b35cbf74f18bc86e7dee0cfd015e4db9f8654c2a5e30ef07a1b701b4f47fe4b
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unexpand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22229
+Filename: coreutils-unexpand_8.32-6_x86_64.ipk
+Size: 23003
+SHA256sum: 6fc9ba9194223c31e7c119bed680b561f1df7c5e24cfd66b39bb748453cf497d
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uniq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24642
+Filename: coreutils-uniq_8.32-6_x86_64.ipk
+Size: 25426
+SHA256sum: 3c2bc256ec207ce240ac46a1584f9242cc7a4bc06fba339e8ad7598e8571e3ff
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20042
+Filename: coreutils-unlink_8.32-6_x86_64.ipk
+Size: 20813
+SHA256sum: 87f7fa6eb072a74b44df55c581b2ea36453a73755a0ca68a8fa87b2f6ac162f7
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uptime
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26428
+Filename: coreutils-uptime_8.32-6_x86_64.ipk
+Size: 27224
+SHA256sum: 001bbe7e02e66be5573a180ffdcf58fd41d831f9f850b041f6eead60b4eab3bf
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-users
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20717
+Filename: coreutils-users_8.32-6_x86_64.ipk
+Size: 21474
+SHA256sum: 8181cca5e7eb5d4ae171343bb3a7cc687af7c572166fc4ddc64e531d6ab62dda
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-vdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 64931
+Filename: coreutils-vdir_8.32-6_x86_64.ipk
+Size: 65779
+SHA256sum: e6e6dc83d46f37b52ba3f9aca6b1de33fd9c30cf49ece0e8e14bdb7a11bf1a01
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-wc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25794
+Filename: coreutils-wc_8.32-6_x86_64.ipk
+Size: 26575
+SHA256sum: c7ddd2bfbf83d2f07f994fda83dbfa4fa226a3cae21f3b11340adcf034b7ace8
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-who
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23862
+Filename: coreutils-who_8.32-6_x86_64.ipk
+Size: 24631
+SHA256sum: 63f48924aedec412a663a0e01fdfc8ca7f5a66d9a08bd12447ee43a201da3c2d
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-whoami
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20095
+Filename: coreutils-whoami_8.32-6_x86_64.ipk
+Size: 20866
+SHA256sum: 052ac7db05ac781ac37508a08376dd054f9df70ac5cf73f193b60938dd9fed54
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-yes
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20406
+Filename: coreutils-yes_8.32-6_x86_64.ipk
+Size: 21162
+SHA256sum: e9bf53a943eb9741ce992d050a9901e615dabf54b98a795cd61e4de2bbd01d8a
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 96
+Filename: coreutils_8.32-6_x86_64.ipk
+Size: 963
+SHA256sum: 3dba98b82a91b4c5af5045141866ceb6ea614871ebecb72c88eb66060e0b2566
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.83.1-4.1
+Depends: libc, libcurl
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1665414732
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 56651
+Filename: curl_7.83.1-4.1_x86_64.ipk
+Size: 57447
+SHA256sum: 0fd1154a4a84812b13a4d9f97b5ac5e1024b163ecbd6b45f19776fcb62fe25da
+Description:  A client-side URL transfer utility
+
+Package: dbus-utils
+Version: 1.13.12-1
+Depends: libc, dbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus-utils
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1591128979
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: x86_64
+Installed-Size: 14656
+Filename: dbus-utils_1.13.12-1_x86_64.ipk
+Size: 15326
+SHA256sum: b76f6db7486e48b41ccdcb5b74efc14ac00c4f32225acda3671fd84488940d59
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.13.12-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1591128979
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: x86_64
+Installed-Size: 111955
+Filename: dbus_1.13.12-1_x86_64.ipk
+Size: 112647
+SHA256sum: 5539c3b432ffc2318f166425e6d88f1aa612a5b1730356851505e27edd6b11c0
+Description:  Simple interprocess messaging system (daemon)
+
+Package: glib2
+Version: 2.66.4-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1610067525
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 1090831
+Filename: glib2_2.66.4-1_x86_64.ipk
+Size: 1087313
+SHA256sum: c8347e05a5f4ad2911252befae0654b2115969295557a03192c564d8cace035d
+Description:  The GLib library of C routines
+
+Package: gnutls-utils
+Version: 3.7.1-2
+Depends: libc, libgnutls, libgnutls-dane
+Source: feeds/packages/libs/gnutls
+SourceName: gnutls-utils
+License: LGPL-2.1-or-later
+Section: utils
+SourceDateEpoch: 1638914318
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: x86_64
+Installed-Size: 255959
+Filename: gnutls-utils_3.7.1-2_x86_64.ipk
+Size: 256969
+SHA256sum: decddb2f11bbc47d1338f0d5efc17804adf2770aabdfd9eb9001d55471b15414
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
+Package: golang-doc
+Version: 1.19.4-1
+Depends: libc
+Source: feeds/packages/lang/golang/golang
+SourceName: golang-doc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1658309896
+CPE-ID: cpe:/a:golang:go
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 150136
+Filename: golang-doc_1.19.4-1_x86_64.ipk
+Size: 151375
+SHA256sum: c006088e3592a61d21887ee116894f9e70c34249047cc8039b0fb336f5337c6e
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides the documentation for the Go programming language.
+
+Package: golang-src
+Version: 1.19.4-1
+Depends: libc
+Source: feeds/packages/lang/golang/golang
+SourceName: golang-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1658309896
+CPE-ID: cpe:/a:golang:go
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 25452928
+Filename: golang-src_1.19.4-1_x86_64.ipk
+Size: 25162644
+SHA256sum: 7041f22db255a6a94c9389b25b19a77586d1ba023df487fee54c470e62250669
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides the Go programming language source files needed
+ for cross-compilation.
+
+Package: golang
+Version: 1.19.4-1
+Depends: libc, golang-src
+Source: feeds/packages/lang/golang/golang
+SourceName: golang
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1658309896
+CPE-ID: cpe:/a:golang:go
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 97132904
+Filename: golang_1.19.4-1_x86_64.ipk
+Size: 96435454
+SHA256sum: 3626f801981319de7b6b38e5fff9fdc174bd1b97d10ea2cb99e028810d971162
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides an assembler, compiler, linker, and compiled
+ libraries for the Go programming language.
+
+Package: icu-data-tools
+Version: 70.1-1
+Depends: libc, icu70
+Source: feeds/packages/libs/icu
+SourceName: icu-data-tools
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1638178937
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: x86_64
+Installed-Size: 164182
+Filename: icu-data-tools_70.1-1_x86_64.ipk
+Size: 164709
+SHA256sum: fef3774256529a43d4d97c1b15eedd4e8199e22c89abe081376e0561b7fca7bb
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data70
+Version: 70.1-1
+Depends: libc, icu70
+Provides: icu-full-data
+Source: feeds/packages/libs/icu
+SourceName: icu-full-data
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1638178937
+ABIVersion: 70
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: x86_64
+Installed-Size: 11766810
+Filename: icu-full-data70_70.1-1_x86_64.ipk
+Size: 11611260
+SHA256sum: 69e066550e0d04773627b579b251d1f14bbc4623e306dd3d9712bff4a6521033
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu70
+Version: 70.1-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+Source: feeds/packages/libs/icu
+SourceName: icu
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1638178937
+ABIVersion: 70
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: x86_64
+Installed-Size: 1937498
+Filename: icu70_70.1-1_x86_64.ipk
+Size: 1930720
+SHA256sum: f4823bf39e694dac8b8fa075415bef0161db6c2f1ce5f6d7485b922a1997c821
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: idn2
+Version: 2.3.0-1
+Depends: libc, libidn2
+Source: feeds/packages/libs/libidn2
+SourceName: idn2
+License: GPL-2.0-or-later
+LicenseFiles: COPYINGv2
+Section: net
+SourceDateEpoch: 1576102741
+CPE-ID: cpe:/a:libidn2_project:libidn2
+Architecture: x86_64
+Installed-Size: 20390
+Filename: idn2_2.3.0-1_x86_64.ipk
+Size: 21275
+SHA256sum: 1ebed143f22b5a0b9700cd1e6fc78b7584684e533b60567315a696db8f9b2899
+Description:  Libidn2 is a free software implementation of IDNA2008,
+ Punycode and TR46 in library form. It contains
+ functionality to convert internationalized domain
+ names to and from ASCII Compatible Encoding (ACE),
+ following the IDNA2008 and TR46 standards.
+ 
+ Command line tool using libidn2
+ 
+
+Package: libacl
+Version: 2.2.53-1
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: libacl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 11865
+Filename: libacl_2.2.53-1_x86_64.ipk
+Size: 12630
+SHA256sum: b306ddd128de445c0192fab19e3a1ceb198ff6a883d0ba46148c1d0cadd57ac2
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 6392
+Filename: libattr_2.4.48-2_x86_64.ipk
+Size: 7188
+SHA256sum: e722aa4da9ca2b32e0f13dd2f2df97ac4bb1bc9456085abfee6a53975a60c03d
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap-bin
+Version: 2.43-1
+Depends: libc, libcap
+Source: feeds/packages/libs/libcap
+SourceName: libcap-bin
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: x86_64
+Installed-Size: 12196
+Filename: libcap-bin_2.43-1_x86_64.ipk
+Size: 12894
+SHA256sum: 02bf9c8f14c73b169f7c6a26d7fd6ed2a06f1edff4cbb97a28ddd60875bb980c
+Description:  Linux capabilities
+ .
+ This package contains the libcap utilities.
+
+Package: libcap
+Version: 2.43-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: x86_64
+Installed-Size: 11339
+Filename: libcap_2.43-1_x86_64.ipk
+Size: 12077
+SHA256sum: 582173687376d6499c043ea706ad2f42e0b3246dac8114322b1983c1b902f5da
+Description:  Linux capabilities library library
+
+Package: libcares
+Version: 1.17.2-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1629470767
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: x86_64
+Installed-Size: 35743
+Filename: libcares_1.17.2-1_x86_64.ipk
+Size: 36657
+SHA256sum: 3795039508acb4cc004ac29de7b915550978fc67c256ef2bfaab079052b6d82f
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 7.83.1-4.1
+Depends: libc, libwolfssl5.5.1.99a5b54a, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665414732
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 160401
+Filename: libcurl4_7.83.1-4.1_x86_64.ipk
+Size: 161264
+SHA256sum: cebb60f02eb50d9b37dbfc141d4d87f0f9846a386f65b8de3f250c96ca523ce9
+Description:  A client-side URL transfer library
+
+Package: libdb47
+Version: 4.7.25.4.NC-6
+Depends: libc
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1610243196
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: x86_64
+Installed-Size: 525011
+Filename: libdb47_4.7.25.4.NC-6_x86_64.ipk
+Size: 525315
+SHA256sum: a391c21e618b396d393130ac6db4d142b76eba50c4e4d692d68ad4b045b775d2
+Description:  Berkeley DB library (4.7).
+
+Package: libdb47xx
+Version: 4.7.25.4.NC-6
+Depends: libc, libdb47, uclibcxx
+Provides: libdb47xx-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47xx
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1610243196
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: x86_64
+Installed-Size: 559679
+Filename: libdb47xx_4.7.25.4.NC-6_x86_64.ipk
+Size: 560088
+SHA256sum: 27fa0652e744cb85f98e2cbf4a51b055980de947afb4c8794f42ed92f2d93054
+Description:  Berkeley DB library (4.7).  C++ wrapper.
+
+Package: libdbus
+Version: 1.13.12-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1591128979
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: x86_64
+Installed-Size: 126973
+Filename: libdbus_1.13.12-1_x86_64.ipk
+Size: 127597
+SHA256sum: 503bb812913cf20f6fcb5e6427b619f5b3aadb4e01cedea025664553c4d6b5a3
+Description:  Simple interprocess messaging system (library)
+
+Package: libedit
+Version: 20210419-3.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/libs/libedit
+SourceName: libedit
+License: BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1620428954
+Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: x86_64
+Installed-Size: 73837
+Filename: libedit_20210419-3.1-1_x86_64.ipk
+Size: 74636
+SHA256sum: 632149c111f59639415c27dc2cd3b55ce9b84103956ca2876ab29e267e35c484
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1578577141
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: x86_64
+Installed-Size: 24824
+Filename: libev_4.31-1_x86_64.ipk
+Size: 25538
+SHA256sum: 5f6c8ed778a886ae2b067ed319b86475ae2508d196b13e06ff271fb518dd3ad7
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.2.10-2
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1645664409
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: x86_64
+Installed-Size: 47087
+Filename: libexpat_2.2.10-2_x86_64.ipk
+Size: 47892
+SHA256sum: 22720ad1abe8cadc80baacc4345b0f019be62970ba85aff51eab3003ec76f7be
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.3-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 14817
+Filename: libffi_3.3-2_x86_64.ipk
+Size: 15803
+SHA256sum: 2844a2f5e74df62668456c76adc20dc96238312dee1c84f38946c95e3eb30fcc
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.18.1-2
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1593468929
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: x86_64
+Installed-Size: 21117
+Filename: libgdbm_1.18.1-2_x86_64.ipk
+Size: 21886
+SHA256sum: 1e03e0e2dea4eea81c9039586f7d833cd1b6495d49c46c8b5ac157f6fd38ed1d
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libgnutls-dane
+Version: 3.7.1-2
+Depends: libc, libgnutls, libunbound
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls-dane
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1638914318
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: x86_64
+Installed-Size: 15790
+Filename: libgnutls-dane_3.7.1-2_x86_64.ipk
+Size: 16550
+SHA256sum: 484c9b74aaee5b9cf3884bdc0f827720361fa25dcaa40dab65d561a880b74536
+Description:  GNU TLS (libgnutls-dane library)
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1638914318
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: x86_64
+Installed-Size: 927227
+Filename: libgnutls_3.7.1-2_x86_64.ipk
+Size: 926846
+SHA256sum: 44fc7f18becdfba3c2ec2a18c45b33a0e001dcaa54f7b659c6a0c320add97fb1
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libical
+Version: 3.0.6-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/libical
+SourceName: libical
+License: LGPL-2.1-or-later MPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1576102585
+Maintainer: Jose Zapater <jzapater@gmail.com>
+Architecture: x86_64
+Installed-Size: 175563
+Filename: libical_3.0.6-1_x86_64.ipk
+Size: 172452
+SHA256sum: 741ccb4389ffd171d028e14a4b821b6ca5212083e08cf7290cd52e9d0e52b5ea
+Description:  Libical is an Open Source implementation of the iCalendar protocols and protocol
+ data units. The iCalendar specification describes how calendar clients can
+ communicate with calendar servers so users can store their calendar data and
+ arrange meetings with other users.
+ Libical implements RFC2445, RFC2446 and some of RFC2447.
+
+Package: libidn2
+Version: 2.3.0-1
+Depends: libc, libunistring
+Source: feeds/packages/libs/libidn2
+SourceName: libidn2
+License: LGPL-3.0-or-later
+LicenseFiles: COPYING.LESSERv3
+Section: libs
+SourceDateEpoch: 1576102741
+CPE-ID: cpe:/a:libidn2_project:libidn2
+Architecture: x86_64
+Installed-Size: 68043
+Filename: libidn2_2.3.0-1_x86_64.ipk
+Size: 65871
+SHA256sum: 227ebb6a64a67b8c42961367bde2736c8547863475624b2478fc5a9901978f22
+Description:  Libidn2 is a free software implementation of IDNA2008,
+ Punycode and TR46 in library form. It contains
+ functionality to convert internationalized domain
+ names to and from ASCII Compatible Encoding (ACE),
+ following the IDNA2008 and TR46 standards.
+ 
+ Library only package
+ 
+
+Package: liblzma
+Version: 5.2.5-3
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: liblzma
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 52588
+Filename: liblzma_5.2.5-3_x86_64.ipk
+Size: 53429
+SHA256sum: 02aee738374a867e0dcd69ec3df19c8db2f73b0d7eec8f14e13a793e03603f44
+Description:  liblzma library from XZ Utils
+
+Package: libnghttp2-14
+Version: 1.43.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1612720536
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: x86_64
+Installed-Size: 67679
+Filename: libnghttp2-14_1.43.0-1_x86_64.ipk
+Size: 67264
+SHA256sum: 2f922ee303713418ecda001d5faa4a28b7c56bbc1639d2b7cae543931a3024ce
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libopenldap
+Version: 2.4.58-1
+Depends: libc, libopenssl1.1, libsasl2, libpthread
+Source: feeds/packages/libs/openldap
+SourceName: libopenldap
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653073842
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: x86_64
+Installed-Size: 254684
+Filename: libopenldap_2.4.58-1_x86_64.ipk
+Size: 255464
+SHA256sum: d6b987ef0c70e3eab0209d99cd47e7a2c7760b9424b500c3f29a895c9a9eae76
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libprotobuf-c
+Version: 1.4.0-1
+Depends: libc
+Source: feeds/packages/libs/protobuf-c
+SourceName: libprotobuf-c
+License: BSD-2-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1655112370
+Architecture: x86_64
+Installed-Size: 9843
+Filename: libprotobuf-c_1.4.0-1_x86_64.ipk
+Size: 10673
+SHA256sum: bfa4a4b5aa85bbbdb2d1a39e59396f325af81fdb1218a441a24b70e4beeb051e
+Description:  Runtime library to use Google Protocol Buffers from C applications.
+ Protocol Buffers are a way of encoding structured data in an efficient yet
+ extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+
+Package: libpython3-3.9
+Version: 3.9.14-1
+Depends: libc, libpthread, zlib
+Provides: libpython3
+Source: feeds/packages/lang/python/python3
+SourceName: libpython3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+ABIVersion: -3.9
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 1158182
+Filename: libpython3-3.9_3.9.14-1_x86_64.ipk
+Size: 1155584
+SHA256sum: 016f3588b83fa14961723ca863853f419a8c79fb46072ee391f9324c8a702f80
+Description:  This package contains only core Python library.
+
+Package: libsasl2
+Version: 2.1.27-4
+Depends: libc, libopenssl1.1
+Source: feeds/packages/libs/cyrus-sasl
+SourceName: libsasl2
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+SourceDateEpoch: 1636816168
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: x86_64
+Installed-Size: 92445
+Filename: libsasl2_2.1.27-4_x86_64.ipk
+Size: 93222
+SHA256sum: 9c0e7c04b42cd0f3b4b54119ce499ab8bd7546c687244f7bb7e8d1cb4a1f3691
+Description:  A general purpose authentication library
+
+Package: libsodium
+Version: 1.0.18-4
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1648330301
+Maintainer: Damiano Renfer <x9w2n7xnu@relay.firefox.com>
+Architecture: x86_64
+Installed-Size: 147134
+Filename: libsodium_1.0.18-4_x86_64.ipk
+Size: 148348
+SHA256sum: b132b48767052f89f9665637ad045f82beebacddcc1e4e003fe3e9ce632ac608
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3330000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1598360159
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: x86_64
+Installed-Size: 492046
+Filename: libsqlite3-0_3330000-1_x86_64.ipk
+Size: 492920
+SHA256sum: a073ce30bbc9059d978fe3d23b42e9f4f0f4f2034992caabb092be2f83634518
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libssh2-1
+Version: 1.9.0-2
+Depends: libc, libopenssl1.1, zlib
+Provides: libssh2
+Source: feeds/packages/libs/libssh2
+SourceName: libssh2
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1589221737
+ABIVersion: -1
+CPE-ID: cpe:/a:libssh2:libssh2
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: x86_64
+Installed-Size: 94239
+Filename: libssh2-1_1.9.0-2_x86_64.ipk
+Size: 95115
+SHA256sum: a49a4b43aef8ca075ef47b2ab2de23365130a64e344de87a7a5adb4f7ff2effe
+Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
+
+Package: libtasn1
+Version: 4.16.0-1
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+SourceName: libtasn1
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1590370659
+CPE-ID: cpe:/a:gnu:libtasn1
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: x86_64
+Installed-Size: 31428
+Filename: libtasn1_4.16.0-1_x86_64.ipk
+Size: 32264
+SHA256sum: 7d04596b77a81404d7ab932a01b2e158c8dc89857c4191f930dc7d35cb72c8ee
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: feeds/packages/libs/udns
+SourceName: libudns
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 19002
+Filename: libudns_0.4-1_x86_64.ipk
+Size: 19785
+SHA256sum: 31bb5a0c2960c7433fc9c6dd7356363f95f3b6485c019ccae083e3206fcaa894
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: libunbound
+Version: 1.16.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+Source: feeds/packages/net/unbound
+SourceName: libunbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Require-User: unbound:unbound
+SourceDateEpoch: 1656989670
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: x86_64
+Installed-Size: 452229
+Filename: libunbound_1.16.0-1_x86_64.ipk
+Size: 448608
+SHA256sum: f2cdbedfba687777c275d4583aa738dbcd65a7704e454bc28280b11db7d448f3
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
+Package: libunistring
+Version: 0.9.10-1
+Depends: libc
+Source: feeds/packages/libs/libunistring
+SourceName: libunistring
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1527455970
+Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: x86_64
+Installed-Size: 603515
+Filename: libunistring_0.9.10-1_x86_64.ipk
+Size: 595218
+SHA256sum: 7938c38b4cfc326b381dbff4de8699f53336f51b28e9fd027ddfbd45202bbf38
+Description:  This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.
+
+Package: libxml2-dev
+Version: 2.9.14-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-dev
+License: MIT
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1654027450
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: x86_64
+Installed-Size: 86449
+Filename: libxml2-dev_2.9.14-1_x86_64.ipk
+Size: 87352
+SHA256sum: 264950bcffc5413cfb1927e8bfa62df15185b9d3b5eecd300b3cca0811dd9f92
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.9.14-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-utils
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1654027450
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: x86_64
+Installed-Size: 21983
+Filename: libxml2-utils_2.9.14-1_x86_64.ipk
+Size: 22701
+SHA256sum: f888c5fa6aff5ad72a993ad5670716351648b230b8c7feca20a734d69f778beb
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.9.14-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1654027450
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: x86_64
+Installed-Size: 505406
+Filename: libxml2_2.9.14-1_x86_64.ipk
+Size: 504308
+SHA256sum: 8854db4e8a6ddaf54255bf0d4338ff05b23aed292c72bcec6106041b69dda3fe
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libzstd
+Version: 1.4.9-1
+Depends: libc
+Source: feeds/packages/utils/zstd
+SourceName: libzstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1616970189
+Architecture: x86_64
+Installed-Size: 377755
+Filename: libzstd_1.4.9-1_x86_64.ipk
+Size: 378490
+SHA256sum: 087b65a3ebfc98b56cc20d2b4d250c027a57e1df7df30d928a9d7c3695ecfcca
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: luasrcdiet
+Version: 1.0.0-1
+Depends: libc, lua
+Source: feeds/packages/lang/luasrcdiet
+SourceName: luasrcdiet
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1574523454
+Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: all
+Installed-Size: 39748
+Filename: luasrcdiet_1.0.0-1_all.ipk
+Size: 40651
+SHA256sum: f5a28062e5f3cbc7e10f7982fb5ee1ec38da3d110f28e6daa174c605a0f08519
+Description:  Compresses Lua source code by removing unnecessary characters
+
+Package: lzmadec
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: lzmadec
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 3316
+Filename: lzmadec_5.2.5-3_x86_64.ipk
+Size: 4061
+SHA256sum: f7ea4e590509c015cba722ee59f38dcf22863dd51e77ddea5be6d21e8860325e
+Description:  Contains: lzmadec 
+
+Package: lzmainfo
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: lzmainfo
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 2840
+Filename: lzmainfo_5.2.5-3_x86_64.ipk
+Size: 3595
+SHA256sum: 5a6881ee4625d1c4acffbf4b1468ef13910364e41d09e71243f07748c6c3a9fa
+Description:  Contains: lzmainfo 
+
+Package: meson-src
+Version: 0.56.0-1
+Depends: libc
+Source: feeds/packages/devel/meson
+SourceName: meson-src
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1606286482
+Maintainer: Andre Heider <a.heider@gmail.com>
+Architecture: x86_64
+Installed-Size: 559787
+Filename: meson-src_0.56.0-1_x86_64.ipk
+Size: 560740
+SHA256sum: cfaf6d5581ddc95032c0325a31529a1740c0e4472ae4a10dbf05a20eb8540521
+Description:  Meson is an open source build system meant to be both extremely fast, and, even more importantly, as user friendly as possible.
+ 
+ This package contains the Python source files for meson.
+
+Package: meson
+Version: 0.56.0-1
+Depends: libc, ninja, python3-pkg-resources
+Source: feeds/packages/devel/meson
+SourceName: meson
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1606286482
+Maintainer: Andre Heider <a.heider@gmail.com>
+Architecture: x86_64
+Installed-Size: 792291
+Filename: meson_0.56.0-1_x86_64.ipk
+Size: 793338
+SHA256sum: d768466039664105dcf9ceed00dc8297fcc65badbfc460fb9f8e8fa7a65cf69d
+Description:  Meson is an open source build system meant to be both extremely fast, and, even more importantly, as user friendly as possible.
+
+Package: ninja
+Version: 1.10.2-1
+Depends: libc, libstdcpp6
+Source: feeds/packages/devel/ninja
+SourceName: ninja
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1607237291
+Maintainer: Andre Heider <a.heider@gmail.com>
+Architecture: x86_64
+Installed-Size: 65679
+Filename: ninja_1.10.2-1_x86_64.ipk
+Size: 66603
+SHA256sum: 0746cf9f4b081f9ab7b5459123132422297bfca214811db35908fd41825d89f6
+Description:  Ninja is a small build system with a focus on speed. It differs from other build systems in two major respects: it is designed to have its input files generated by a higher-level build system, and it is designed to run builds as fast as possible.
+
+Package: openldap-server
+Version: 2.4.58-1
+Depends: libc, libopenldap, libuuid1
+Source: feeds/packages/libs/openldap
+SourceName: openldap-server
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653073842
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: x86_64
+Installed-Size: 590256
+Filename: openldap-server_2.4.58-1_x86_64.ipk
+Size: 584272
+SHA256sum: e3b42db72c7c0455eb62977e88e4e8c444a59d2ae29fad752028af5bfec140a7
+Description:  This package contains server programs required to provide LDAP services.
+
+Package: openldap-utils
+Version: 2.4.58-1
+Depends: libc, libopenldap
+Source: feeds/packages/libs/openldap
+SourceName: openldap-utils
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653073842
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: x86_64
+Installed-Size: 189635
+Filename: openldap-utils_2.4.58-1_x86_64.ipk
+Size: 190319
+SHA256sum: b5ada88929108c474e15147f9767f0f5c3af0b37d86d9e70129b8b06e3a73559
+Description:  This package contains client programs required to access LDAP servers.
+
+Package: p11-kit
+Version: 0.23.22-1
+Depends: libc, libtasn1, libpthread
+Source: feeds/packages/libs/p11-kit
+SourceName: p11-kit
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: x86_64
+Installed-Size: 267887
+Filename: p11-kit_0.23.22-1_x86_64.ipk
+Size: 251811
+SHA256sum: 0aba56b8229ea7819a55aab67ec8b38c9b9b4811b965579be7599f16194a0a32
+Description:  Provides a way to load and enumerate PKCS11 modules. Provides a
+ standard configuration setup for installing PKCS11 modules in such a
+ way that they are discoverable.
+
+Package: protobuf-lite
+Version: 3.17.3-2
+Depends: libc, zlib, libpthread, libatomic1, libstdcpp6
+Source: feeds/packages/libs/protobuf
+SourceName: protobuf-lite
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1656235814
+CPE-ID: cpe:/a:google:protobuf
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: x86_64
+Installed-Size: 145560
+Filename: protobuf-lite_3.17.3-2_x86_64.ipk
+Size: 146365
+SHA256sum: 6b7e8c7dd4b3ee9f487cd40793d625823a227174a134c7303557925bd6906f65
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotobuf-lite library.
+ 
+
+Package: protobuf
+Version: 3.17.3-2
+Depends: libc, zlib, libpthread, libatomic1, libstdcpp6, protobuf-lite
+Source: feeds/packages/libs/protobuf
+SourceName: protobuf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1656235814
+CPE-ID: cpe:/a:google:protobuf
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: x86_64
+Installed-Size: 1366140
+Filename: protobuf_3.17.3-2_x86_64.ipk
+Size: 1364333
+SHA256sum: 44ca01779eb64b73be3ba83f2903f84e2563af92d7dcfca49bde6b0c17751a3e
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotoc, libprotobuf, and libprotobuf-lite
+ libraries.  For a much smaller protobuf package, see "protobuf-lite".
+ 
+
+Package: python-pip-conf
+Version: 0.1-1
+Depends: libc
+Source: feeds/packages/lang/python/python-pip-conf
+SourceName: python-pip-conf
+Section: lang
+SourceDateEpoch: 1512928163
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 202
+Filename: python-pip-conf_0.1-1_x86_64.ipk
+Size: 926
+SHA256sum: 3308dfc1ee9111caa14528ae3ef96096490bbe8865c376a6f718a40ee47f97f7
+Description:  Configuration file for pip/pip3
+
+Package: python3-asyncio-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 102780
+Filename: python3-asyncio-src_3.9.14-1_x86_64.ipk
+Size: 103744
+SHA256sum: e01091b80cf894540a9e307085697d9fecd5003675d663d927819e2ca0be4cda
+Description:  Python 3.9 asyncio module
+ 
+ This package contains the Python source files for python3-asyncio.
+
+Package: python3-asyncio
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 144599
+Filename: python3-asyncio_3.9.14-1_x86_64.ipk
+Size: 145557
+SHA256sum: 8c33101f8a3fd89d0d0794ed9eb9d61d2a08ac2a4badf319a2c5cab0ea2bebd1
+Description:  Python 3.9 asyncio module
+
+Package: python3-base-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 258101
+Filename: python3-base-src_3.9.14-1_x86_64.ipk
+Size: 249420
+SHA256sum: 16382b6a8c56c22e9c4236e4e684778c78321d1390e0cd255d15eef41d6bd020
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+ 
+ This package contains the Python source files for python3-base.
+
+Package: python3-base
+Version: 3.9.14-1
+Depends: libc, libpthread, zlib, libpython3-3.9
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 136802
+Filename: python3-base_3.9.14-1_x86_64.ipk
+Size: 137082
+SHA256sum: 8ead671bb931324bdba3010b6fa27815e48fef4efa6a3bd5fc9e9699a58d22e0
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3-cgi-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 9576
+Filename: python3-cgi-src_3.9.14-1_x86_64.ipk
+Size: 10442
+SHA256sum: 998310f6fa5b0a49b57052ee4c777c7f86e96242b5d9c27b75a2464faefd38cb
+Description:  Python 3.9 cgi module
+ 
+ This package contains the Python source files for python3-cgi.
+
+Package: python3-cgi
+Version: 3.9.14-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 12064
+Filename: python3-cgi_3.9.14-1_x86_64.ipk
+Size: 12913
+SHA256sum: 04d90d881542a696fd59de1a9a51b01daec7b5ff7b0c35c8dbed8a00d408dd5a
+Description:  Python 3.9 cgi module
+
+Package: python3-cgitb-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 3706
+Filename: python3-cgitb-src_3.9.14-1_x86_64.ipk
+Size: 4545
+SHA256sum: 62ff9cef63071a421cbaf75ffe54f09a7fb13479c00d84437bc5b910fddeb33e
+Description:  Python 3.9 cgitb module
+ 
+ This package contains the Python source files for python3-cgitb.
+
+Package: python3-cgitb
+Version: 3.9.14-1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 5504
+Filename: python3-cgitb_3.9.14-1_x86_64.ipk
+Size: 6331
+SHA256sum: e5e87d281520e3f0dd0f15bbe1e4f829d15ee1a7b220eea169c7d9a87632d05d
+Description:  Python 3.9 cgitb module
+
+Package: python3-codecs-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 94
+Filename: python3-codecs-src_3.9.14-1_x86_64.ipk
+Size: 945
+SHA256sum: 0395b51009fc2352ab7e0ec19a8f77e2b9f520ae713c4efe195bff50195438f1
+Description:  Python 3.9 codecs + unicode support
+ 
+ This package contains the Python source files for python3-codecs.
+
+Package: python3-codecs
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 769969
+Filename: python3-codecs_3.9.14-1_x86_64.ipk
+Size: 743699
+SHA256sum: a61804bfe63d09716ac35d4601201df1af46b1ccb7ef34d592aa10146e05efda
+Description:  Python 3.9 codecs + unicode support
+
+Package: python3-ctypes-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 18014
+Filename: python3-ctypes-src_3.9.14-1_x86_64.ipk
+Size: 18887
+SHA256sum: 51f3d3ca4ba3f90cd9eef64752a71b3819539031c5c9c3c836a26cc67f671d4d
+Description:  Python 3.9 ctypes module
+ 
+ This package contains the Python source files for python3-ctypes.
+
+Package: python3-ctypes
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 74749
+Filename: python3-ctypes_3.9.14-1_x86_64.ipk
+Size: 75582
+SHA256sum: 94d410d575f1384bbb8bc4703e7cd6faee0c9dc9b2a3419bd8f467a63d5dff21
+Description:  Python 3.9 ctypes module
+
+Package: python3-dbm-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 5824
+Filename: python3-dbm-src_3.9.14-1_x86_64.ipk
+Size: 6654
+SHA256sum: 0513d9b19eb0d4b940b2fe69931b3f76462acfcd4f5ec73f784a065f30373684
+Description:  Python 3.9 dbm module
+ 
+ This package contains the Python source files for python3-dbm.
+
+Package: python3-dbm
+Version: 3.9.14-1
+Depends: libc, python3-light, libdb47
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 11200
+Filename: python3-dbm_3.9.14-1_x86_64.ipk
+Size: 12026
+SHA256sum: a5bb7a003de25c2756e7f90c4a49eedfe214fa76b9d599ed8f962b6fb8947055
+Description:  Python 3.9 dbm module
+
+Package: python3-decimal-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 280
+Filename: python3-decimal-src_3.9.14-1_x86_64.ipk
+Size: 1131
+SHA256sum: e488bdcba9301a2aaef5e17c2f5880ac6d8e95be231b4e906a360adb5bedc98e
+Description:  Python 3.9 decimal module
+ 
+ This package contains the Python source files for python3-decimal.
+
+Package: python3-decimal
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 84306
+Filename: python3-decimal_3.9.14-1_x86_64.ipk
+Size: 85119
+SHA256sum: a76445d2b466de9e7d2b7deff47237651d3ccd2cd09505f7796e134bb318aced
+Description:  Python 3.9 decimal module
+
+Package: python3-dev-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dev-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 982
+Filename: python3-dev-src_3.9.14-1_x86_64.ipk
+Size: 1842
+SHA256sum: 72249731ed372b7a9673416888a011e0ffa94d6be2877366d6ff17822f73aa34
+Description:  Python 3.9 development files
+ 
+ This package contains the Python source files for python3-dev.
+
+Package: python3-dev
+Version: 3.9.14-1
+Depends: libc, python3, python3-lib2to3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dev
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 29623322
+Filename: python3-dev_3.9.14-1_x86_64.ipk
+Size: 29558318
+SHA256sum: 91dc0ce7d8f6cf7761cd749fcb890c2f03e5ecce747be8c49c4659cf9afd4ac7
+Description:  Python 3.9 development files
+
+Package: python3-distutils-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 168121
+Filename: python3-distutils-src_3.9.14-1_x86_64.ipk
+Size: 169079
+SHA256sum: 081e979d65a1e4996e7b8099faffb0c0a858114a7457b12774b2c83c6ab2ba40
+Description:  Python 3.9 distutils module
+ 
+ This package contains the Python source files for python3-distutils.
+
+Package: python3-distutils
+Version: 3.9.14-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 175869
+Filename: python3-distutils_3.9.14-1_x86_64.ipk
+Size: 176826
+SHA256sum: 029f9af7a6d0a1054b6c99af005f1ba5661fc47ccc1bec3f62bfec6c04e948fe
+Description:  Python 3.9 distutils module
+
+Package: python3-email-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 93943
+Filename: python3-email-src_3.9.14-1_x86_64.ipk
+Size: 94869
+SHA256sum: 9993feb605e7c3cb1fafe2eb7bc551798efa31476b06a43cef2c55457e2b144c
+Description:  Python 3.9 email module
+ 
+ This package contains the Python source files for python3-email.
+
+Package: python3-email
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 113058
+Filename: python3-email_3.9.14-1_x86_64.ipk
+Size: 114019
+SHA256sum: 93b697d4d033fb258b53a11c49caefd2525cb0e808ca0c170b72f3590d1c7dfa
+Description:  Python 3.9 email module
+
+Package: python3-gdbm-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-gdbm-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 94
+Filename: python3-gdbm-src_3.9.14-1_x86_64.ipk
+Size: 938
+SHA256sum: da075ceb227213c77b09b16224b015546bd79e74c5b6eb9860e9c9bdc0ff58e5
+Description:  Python 3.9 gdbm module
+ 
+ This package contains the Python source files for python3-gdbm.
+
+Package: python3-gdbm
+Version: 3.9.14-1
+Depends: libc, python3-light, libgdbm
+Source: feeds/packages/lang/python/python3
+SourceName: python3-gdbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 7334
+Filename: python3-gdbm_3.9.14-1_x86_64.ipk
+Size: 8192
+SHA256sum: b1568ea1eff42fa394c4df0eea0390549f0679e4095534c4cdfe330540c41378
+Description:  Python 3.9 gdbm module
+
+Package: python3-lib2to3-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lib2to3-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 74948
+Filename: python3-lib2to3-src_3.9.14-1_x86_64.ipk
+Size: 75882
+SHA256sum: e416d1f36bb24fc01f2ad4ff86612e5d71fbc60a3b27ecad3478efe880504c45
+Description:  Python 3.9 lib2to3 module
+ 
+ This package contains the Python source files for python3-lib2to3.
+
+Package: python3-lib2to3
+Version: 3.9.14-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lib2to3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 103205
+Filename: python3-lib2to3_3.9.14-1_x86_64.ipk
+Size: 104158
+SHA256sum: 830c8d87187b993feb330bb5dd0d91b56a3943e157f7ca9570195969415437e9
+Description:  Python 3.9 lib2to3 module
+
+Package: python3-light-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 1198687
+Filename: python3-light-src_3.9.14-1_x86_64.ipk
+Size: 1199579
+SHA256sum: 5bf0f3129d7ddabd8dd560e2a2a872cb08f5f79f69ab648e8dea359f7681ef08
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+ 
+ This package contains the Python source files for python3-light.
+
+Package: python3-light
+Version: 3.9.14-1
+Depends: libc, python3-base, libffi, libbz2-1.0, libuuid1
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 1912687
+Filename: python3-light_3.9.14-1_x86_64.ipk
+Size: 1912655
+SHA256sum: e3a7cccbf53cccc63128d5a4a84baf750c5405d844632d180e36446efaf1728e
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python3-logging-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 45203
+Filename: python3-logging-src_3.9.14-1_x86_64.ipk
+Size: 46158
+SHA256sum: b785cf93c6a1f8a2da1736051cadf03b2f544fcca65f87e33943be00ea47b84f
+Description:  Python 3.9 logging module
+ 
+ This package contains the Python source files for python3-logging.
+
+Package: python3-logging
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 52278
+Filename: python3-logging_3.9.14-1_x86_64.ipk
+Size: 53212
+SHA256sum: 72983c221f063014c240002be8e11e291aeef8b9f101eb9df616bb8efd19220e
+Description:  Python 3.9 logging module
+
+Package: python3-lzma-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 4201
+Filename: python3-lzma-src_3.9.14-1_x86_64.ipk
+Size: 5050
+SHA256sum: fed9f12009447f73007d8426eb35d8b74697219ac2d583c2c949ddae6a60d452
+Description:  Python 3.9 lzma module
+ 
+ This package contains the Python source files for python3-lzma.
+
+Package: python3-lzma
+Version: 3.9.14-1
+Depends: libc, python3-light, liblzma
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 16420
+Filename: python3-lzma_3.9.14-1_x86_64.ipk
+Size: 17240
+SHA256sum: beba5fcf3b7ea1b05f229546aabd822d288104144c2e2aa088fe85fbbf1994a3
+Description:  Python 3.9 lzma module
+
+Package: python3-multiprocessing-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 65061
+Filename: python3-multiprocessing-src_3.9.14-1_x86_64.ipk
+Size: 65996
+SHA256sum: 61430e678b9c06cbf7356bbca9ef22c48f563b0f0635575974eeea028b731339
+Description:  Python 3.9 multiprocessing
+ 
+ This package contains the Python source files for python3-multiprocessing.
+
+Package: python3-multiprocessing
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 99418
+Filename: python3-multiprocessing_3.9.14-1_x86_64.ipk
+Size: 100364
+SHA256sum: d157bcaa2d72d202f0f7dd1704c77f5616265730d16e4185f6aebc2927f2dc9b
+Description:  Python 3.9 multiprocessing
+
+Package: python3-ncurses-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 6183
+Filename: python3-ncurses-src_3.9.14-1_x86_64.ipk
+Size: 7072
+SHA256sum: 5270cc5aeb06acf6ec6cf852235ab0bf2c87f23b59b75371ae123479757b879f
+Description:  Python 3.9 ncurses module
+ 
+ This package contains the Python source files for python3-ncurses.
+
+Package: python3-ncurses
+Version: 3.9.14-1
+Depends: libc, python3-light, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 52805
+Filename: python3-ncurses_3.9.14-1_x86_64.ipk
+Size: 53566
+SHA256sum: 1f01df7c1afe2d2b2248f0419568373858b0ed3f08a7a37374365e21ccb3f38f
+Description:  Python 3.9 ncurses module
+
+Package: python3-openssl-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 94
+Filename: python3-openssl-src_3.9.14-1_x86_64.ipk
+Size: 937
+SHA256sum: b8772f2f8f3aa2e2afa3b8bcfbdab8420ca663c4bb13644b72d27f861797e489
+Description:  Python 3.9 SSL module
+ 
+ This package contains the Python source files for python3-openssl.
+
+Package: python3-openssl
+Version: 3.9.14-1
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 73207
+Filename: python3-openssl_3.9.14-1_x86_64.ipk
+Size: 73513
+SHA256sum: 9c31f4c4e7d5d874a0f46640ddeb83b5524e6defc4ecac9d191c5636ef72a09f
+Description:  Python 3.9 SSL module
+
+Package: python3-pip-src
+Version: 22.0.4-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pip-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 1393534
+Filename: python3-pip-src_22.0.4-1_x86_64.ipk
+Size: 1386720
+SHA256sum: a1b515636f7467b9f87aeeef158f932ed681da65052a929c420d01b8d68c9631
+Description:  Python 3.9 pip module
+ 
+ This package contains the Python source files for python3-pip.
+
+Package: python3-pip
+Version: 22.0.4-1
+Depends: libc, python3, python3-setuptools, python-pip-conf
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pip
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 1916847
+Filename: python3-pip_22.0.4-1_x86_64.ipk
+Size: 1912164
+SHA256sum: 679f83cdaec91c86a919ec82efda6373b6c71d00a9ec7d5dd1a07385fe1e0765
+Description:  Python 3.9 pip module
+
+Package: python3-pkg-resources-src
+Version: 58.1.0-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pkg-resources-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 112103
+Filename: python3-pkg-resources-src_58.1.0-1_x86_64.ipk
+Size: 112982
+SHA256sum: 3c64629ca78eea94df88ba0c0fcce62b88d1c43256e51f7ab68b2cc1d5b2d419
+Description:  Python 3.9 pkg_resources module (part of setuptools)
+ 
+ This package contains the Python source files for python3-pkg-resources.
+
+Package: python3-pkg-resources
+Version: 58.1.0-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pkg-resources
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 146489
+Filename: python3-pkg-resources_58.1.0-1_x86_64.ipk
+Size: 147398
+SHA256sum: 7c5900db6532c9e5cc49e545a3bb2ff8232a310f5a794123584fe58a682b48b0
+Description:  Python 3.9 pkg_resources module (part of setuptools)
+
+Package: python3-pydoc-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 204771
+Filename: python3-pydoc-src_3.9.14-1_x86_64.ipk
+Size: 205736
+SHA256sum: d314f05c40d2a6ab368d6fee88cbf345eb222b792c52cc913316a9348a0dd67e
+Description:  Python 3.9 pydoc module
+ 
+ This package contains the Python source files for python3-pydoc.
+
+Package: python3-pydoc
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 193546
+Filename: python3-pydoc_3.9.14-1_x86_64.ipk
+Size: 194444
+SHA256sum: 86f38eb03740115c390c264a99790ab8af5ab448e9507c3aaecfca2e00bfab61
+Description:  Python 3.9 pydoc module
+
+Package: python3-readline-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 94
+Filename: python3-readline-src_3.9.14-1_x86_64.ipk
+Size: 941
+SHA256sum: 7243da140596c2dcf3325d0898b9dbfcd564726f9cdcb7e8b5c67a8cee9d7c92
+Description:  Python 3.9 readline module
+ 
+ This package contains the Python source files for python3-readline.
+
+Package: python3-readline
+Version: 3.9.14-1
+Depends: libc, python3-light, libreadline8, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 9870
+Filename: python3-readline_3.9.14-1_x86_64.ipk
+Size: 10709
+SHA256sum: a6783e4e4d98fc2668a76a383655e7c4b36acc2ca21fc4034866649f8342a7c0
+Description:  Python 3.9 readline module
+
+Package: python3-setuptools-src
+Version: 58.1.0-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-setuptools-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 403945
+Filename: python3-setuptools-src_58.1.0-1_x86_64.ipk
+Size: 404872
+SHA256sum: aba0961039b142283a3bc48c56561b768a5069cd8ad99cd65469a65db367064d
+Description:  Python 3.9 setuptools module
+ 
+ This package contains the Python source files for python3-setuptools.
+
+Package: python3-setuptools
+Version: 58.1.0-1
+Depends: libc, python3, python3-pkg-resources
+Source: feeds/packages/lang/python/python3
+SourceName: python3-setuptools
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 503417
+Filename: python3-setuptools_58.1.0-1_x86_64.ipk
+Size: 504370
+SHA256sum: b80796905358686fe05013cb0d4da6ed73ca6a92c824bdbb5a1f2464022456ba
+Description:  Python 3.9 setuptools module
+
+Package: python3-sqlite3-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 2966
+Filename: python3-sqlite3-src_3.9.14-1_x86_64.ipk
+Size: 3806
+SHA256sum: a530f1344fcce95a5b2e9d3fe44cd5c2598f5db76355ec2ad607c783c36ea31c
+Description:  Python 3.9 sqlite3 module
+ 
+ This package contains the Python source files for python3-sqlite3.
+
+Package: python3-sqlite3
+Version: 3.9.14-1
+Depends: libc, python3-light, libsqlite3-0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 28697
+Filename: python3-sqlite3_3.9.14-1_x86_64.ipk
+Size: 29555
+SHA256sum: ca65407e8e66b6d9a9ee0f3a1c71200caf7bb39e4119044467f7dd300abce636
+Description:  Python 3.9 sqlite3 module
+
+Package: python3-unittest-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 57088
+Filename: python3-unittest-src_3.9.14-1_x86_64.ipk
+Size: 58042
+SHA256sum: 8452889e32a1973d7b6c0163f46aff873e67d8a306e687210e76451ad48f5e8b
+Description:  Python 3.9 unittest module
+ 
+ This package contains the Python source files for python3-unittest.
+
+Package: python3-unittest
+Version: 3.9.14-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 77044
+Filename: python3-unittest_3.9.14-1_x86_64.ipk
+Size: 77973
+SHA256sum: 724f011fafc9a1ba1b6ee8500ddc6e316d6b9f7ee6e6d057ddf74af42494f31f
+Description:  Python 3.9 unittest module
+
+Package: python3-urllib-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 41673
+Filename: python3-urllib-src_3.9.14-1_x86_64.ipk
+Size: 42594
+SHA256sum: c21bda56a4ac526d8b1d3fc45495723e90eb71c42dda187e9a026ff7087eb3c0
+Description:  Python 3.9 URL library module
+ 
+ This package contains the Python source files for python3-urllib.
+
+Package: python3-urllib
+Version: 3.9.14-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 50974
+Filename: python3-urllib_3.9.14-1_x86_64.ipk
+Size: 51932
+SHA256sum: 1354f3198dea6cdd2135371fad4e3054ec840d453568581555c514aafe437ea0
+Description:  Python 3.9 URL library module
+
+Package: python3-xml-src
+Version: 3.9.14-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 90587
+Filename: python3-xml-src_3.9.14-1_x86_64.ipk
+Size: 91507
+SHA256sum: 3843ad55d506f201d409071ba4b6d8299188e17be9157ca3611b16950263ffbb
+Description:  Python 3.9 xml libs
+ 
+ This package contains the Python source files for python3-xml.
+
+Package: python3-xml
+Version: 3.9.14-1
+Depends: libc, python3-light, python3-urllib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 215537
+Filename: python3-xml_3.9.14-1_x86_64.ipk
+Size: 215939
+SHA256sum: e4796136c4c7d1a39073deb535d7474046e5aab2259e1a92d6bcab0feb9f742a
+Description:  Python 3.9 xml libs
+
+Package: python3
+Version: 3.9.14-1
+Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-gdbm, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-xml
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1665503728
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 94
+Filename: python3_3.9.14-1_x86_64.ipk
+Size: 1072
+SHA256sum: 4899027c5e7db540933d489e32fa22f80f6f7157ed36b6609753aede121b1530
+Description:  This package contains the (almost) full Python install.
+ It's python3-light + all other packages.
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-1
+Depends: libc
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 2711
+Filename: shadowsocks-libev-config_3.3.5-1_x86_64.ipk
+Size: 3497
+SHA256sum: ef0d58fa1f32a4cfe6447e8f193aa5dc4e766dc33f1d501d4666ab538ebda39f
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 50468
+Filename: shadowsocks-libev-ss-local_3.3.5-1_x86_64.ipk
+Size: 51323
+SHA256sum: 0775c7578248a9fc7f4bd1530b70c2467a18207952e5f634ebb7b653c35423ab
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 45164
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_x86_64.ipk
+Size: 45981
+SHA256sum: 7bb533d0a5bbf870f2f244ba1e85e0415543e089cb63764213b1e9ffc58a5a5e
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-1
+Depends: libc, ip, ipset, iptables-mod-tproxy, resolveip, shadowsocks-libev-ss-redir, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-rules
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 3255
+Filename: shadowsocks-libev-ss-rules_3.3.5-1_x86_64.ipk
+Size: 4134
+SHA256sum: e6ccbd2fb3fe3b1ce8b187855f9b2d0211ce8a1573cea2ba5bd5028a149089f1
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 55575
+Filename: shadowsocks-libev-ss-server_3.3.5-1_x86_64.ipk
+Size: 56389
+SHA256sum: 3b7a07069f49c7f0f4da7e20afb3aa2d2aad56d19912161220d1c3f7c4a0093c
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 43348
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-1_x86_64.ipk
+Size: 44233
+SHA256sum: bce38179774b2720023767ba5daa2e6ad49102a82a007b19c54abc2420d52a5e
+Description:  shadowsocks-libev ss-tunnel
+
+Package: sqlite3-cli
+Version: 3330000-1
+Depends: libc, libsqlite3-0, libedit
+Source: feeds/packages/libs/sqlite3
+SourceName: sqlite3-cli
+License: PUBLICDOMAIN
+Section: utils
+SourceDateEpoch: 1598360159
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: x86_64
+Installed-Size: 94200
+Filename: sqlite3-cli_3330000-1_x86_64.ipk
+Size: 95146
+SHA256sum: d15b342d9b8185074d1a560e55d746bfef5f8621e81c350bc1206048e00de8f9
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: udns-dnsget
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-dnsget
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 8354
+Filename: udns-dnsget_0.4-1_x86_64.ipk
+Size: 9112
+SHA256sum: 9728ec2c0ce77d6b9e6e95b996896f842c92c88866ec11398ef1ca52bca2bde4
+Description:  a simple DNS query tool
+
+Package: udns-ex-rdns
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-ex-rdns
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 2270
+Filename: udns-ex-rdns_0.4-1_x86_64.ipk
+Size: 2990
+SHA256sum: 0ed305d4b90726848330e9ebd31d0f589543e5abe0eb87bc7e08ece55e4e90f4
+Description:  a parallel rDNS resolver
+
+Package: udns-rblcheck
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-rblcheck
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 4953
+Filename: udns-rblcheck_0.4-1_x86_64.ipk
+Size: 5684
+SHA256sum: a91710a109cfec64db1f5ed660f1a4469adf49db50418239ba951fbba85a68ac
+Description:  a simple DNSBL lookups tool
+
+Package: unbound-anchor
+Version: 1.16.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon, libexpat
+Source: feeds/packages/net/unbound
+SourceName: unbound-anchor
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1656989670
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: x86_64
+Installed-Size: 21520
+Filename: unbound-anchor_1.16.0-1_x86_64.ipk
+Size: 22356
+SHA256sum: b96f08395b35e7be00289e020fb33dcc110da2ee0a0db088bf1fc1981d2dd87c
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.16.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-checkconf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1656989670
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: x86_64
+Installed-Size: 51640
+Filename: unbound-checkconf_1.16.0-1_x86_64.ipk
+Size: 52355
+SHA256sum: e4ab526ebafb061e4c88c38034bf82a431f53caf8db1f656baed1da831a7543b
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.16.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-control, openssl-util
+Source: feeds/packages/net/unbound
+SourceName: unbound-control-setup
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1656989670
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: x86_64
+Installed-Size: 2590
+Filename: unbound-control-setup_1.16.0-1_x86_64.ipk
+Size: 3425
+SHA256sum: 90a10905bb689deee1ce7a7e83e5ac402a01e72f4f419ce844d5f3b563faaf7f
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.16.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-control
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1656989670
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: x86_64
+Installed-Size: 53207
+Filename: unbound-control_1.16.0-1_x86_64.ipk
+Size: 53787
+SHA256sum: 2014e0cb8e87b75d6a4fbfd22284426def0999128aaa5e276cade42b3969a3e2
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.16.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-daemon
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1656989670
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: x86_64
+Installed-Size: 134845
+Filename: unbound-daemon_1.16.0-1_x86_64.ipk
+Size: 135228
+SHA256sum: 19f5ed93927b567e67b3a41fc8931dac504dd02558d01eb588f4230afa0c8800
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.16.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-host
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1656989670
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: x86_64
+Installed-Size: 45689
+Filename: unbound-host_1.16.0-1_x86_64.ipk
+Size: 46296
+SHA256sum: 8704e7cdebdfe22ab08067dfca4d129388855a70bfdfd4cb068ade99d2d5b4a0
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:info-zip:unzip
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: x86_64
+Installed-Size: 108628
+Filename: unzip_6.0-8_x86_64.ipk
+Size: 109601
+SHA256sum: fcbbc746ccc334b2f34472c0ff15422c48a79ad775fac4e5bc1c46de2b59946b
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: xray-core
+Version: 1.5.9-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1658166246
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 7981515
+Filename: xray-core_1.5.9-1_x86_64.ipk
+Size: 7964657
+SHA256sum: fc6c5526275c4e246ca3459fce8fac7b6edb862af7888f5c5a2f24bf971df2d0
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.5.9-1
+Depends: libc, xray-core
+Source: feeds/packages/net/xray-core
+SourceName: xray-example
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1658166246
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 553
+Filename: xray-example_1.5.9-1_all.ipk
+Size: 1405
+SHA256sum: 7863a586b35ecff9cf1f2dc9eff34cd8aebfc2e646180e298f73ca3effbbf214
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
+
+Package: xray-geodata
+Version: 1.5.9-1
+Depends: libc, xray-core
+Source: feeds/packages/net/xray-core
+SourceName: xray-geodata
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1658166246
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 2508745
+Filename: xray-geodata_1.5.9-1_all.ipk
+Size: 2234294
+SHA256sum: dc833207e01571f4710dfad6118062ad2bd9eaa8b4ee5a4a8c82077692c446b1
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes GEO datas used for xray-core.
+
+Package: xz-utils
+Version: 5.2.5-3
+Depends: libc
+Source: feeds/packages/utils/xz
+SourceName: xz-utils
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 97
+Filename: xz-utils_5.2.5-3_x86_64.ipk
+Size: 842
+SHA256sum: f32d71d040ffa747e5b32345fef8ece25588b0f8fabf47d472707fc6d166cc52
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 27731
+Filename: xz_5.2.5-3_x86_64.ipk
+Size: 28583
+SHA256sum: a4c5042a8b0ae825a65f89b48055516bf9a31cdc9fb170f18f6e80e07fcc42d2
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
+Package: xzdec
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: xzdec
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 3313
+Filename: xzdec_5.2.5-3_x86_64.ipk
+Size: 4067
+SHA256sum: 914f8ee6dfe458e55338c6f5bdf3291228083e7ae084c03970067f6d7c44d224
+Description:  Contains: xzdec 
+
+Package: xzdiff
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzdiff:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/lzcmp:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/lzdiff:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/xzcmp:/usr/libexec/xzdiff-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzdiff
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 2610
+Filename: xzdiff_5.2.5-3_x86_64.ipk
+Size: 3434
+SHA256sum: e117968b6a4a574c970187d73d8d815a488da26577e1ddd954657d0f84b76fe2
+Description:  Contains: xzdiff  lzcmp lzdiff xzcmp
+
+Package: xzgrep
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzegrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzfgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/xzegrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/xzfgrep:/usr/libexec/xzgrep-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzgrep
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 2564
+Filename: xzgrep_5.2.5-3_x86_64.ipk
+Size: 3401
+SHA256sum: 6c75e46f024e31765652412093b074f7fbc12a73918a5050d50c85c61a0bad75
+Description:  Contains: xzgrep  lzegrep lzfgrep lzgrep xzegrep xzfgrep
+
+Package: xzless
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzless:/usr/libexec/xzless-lzmautils, 300:/usr/bin/lzless:/usr/libexec/xzless-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzless
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 1244
+Filename: xzless_5.2.5-3_x86_64.ipk
+Size: 2039
+SHA256sum: eae0763ea3ef413b1b382b0cd5612b385f2bd63e5ad447ae7a6935b683e44fed
+Description:  Contains: xzless  lzless
+
+Package: xzmore
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzmore:/usr/libexec/xzmore-lzmautils, 300:/usr/bin/lzmore:/usr/libexec/xzmore-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzmore
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: x86_64
+Installed-Size: 1332
+Filename: xzmore_5.2.5-3_x86_64.ipk
+Size: 2125
+SHA256sum: bb984524db7e4c45f341a83ec84cc237193fb479d07c8a7a4d3712dfd924d574
+Description:  Contains: xzmore  lzmore
+
+Package: zstd
+Version: 1.4.9-1
+Depends: libc, libzstd
+Source: feeds/packages/utils/zstd
+SourceName: zstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1616970189
+Architecture: x86_64
+Installed-Size: 59644
+Filename: zstd_1.4.9-1_x86_64.ipk
+Size: 60476
+SHA256sum: 5423d1fdb6520f2bc51efa4001bb30a1dfcc4b1ea8fa85d260aa0536067dfa4a
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides the zstd binaries.
+
